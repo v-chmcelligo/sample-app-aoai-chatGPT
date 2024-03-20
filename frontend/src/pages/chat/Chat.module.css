@@ -346,3 +346,38 @@ a {
         line-height: 36px;
     }
 }
+
+/* Customer styles */
+
+<style>
+  .flex-container {
+
+    display: flex;
+    
+    justify-content: center;     
+
+    background-color: #bbdefb;
+    height: 40px;
+    padding: 15px;
+    gap: 5px;
+
+  }
+
+  .flex-container > div{
+    background: #ffecb3;
+    border: 3px solid #ffcc80;
+    border-radius: 5px;
+    padding: 8px;
+  }
+
+
+
+</style>
+
+<div class="flex-container">
+   
+    <div class="item1">item 1</div>
+    <div class="item2">item 2</div>
+    <div class="item3">item 3</div>
+
+</div>

@@ -647,6 +647,11 @@ const Chat = () => {
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>{ui?.chat_title}</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}</h2>
+                                <div class="flex-container">
+                                    <div class="flex-items">Item 1</div>
+                                    <div className={styles.chatEmptyStateSubtitle} class="flex-items">Item 2</div>
+                                    <div className={styles.chatEmptyStateSubtitle} class="flex-items">Item 2</div>
+                                </div>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
