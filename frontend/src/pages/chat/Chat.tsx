@@ -646,12 +646,8 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>{ui?.chat_title}</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}Testing</h2>
-                                <div class="flex-container">
-                                    <div className={styles.chatEmptyStateSubtitle} class="flex-items">Item 1</div>
-                                    <div className={styles.chatEmptyStateSubtitle} class="flex-items">Item 2</div>
-                                    <div className={styles.chatEmptyStateSubtitle} class="flex-items">Item 2</div>
-                                </div>
+                                <h2 className={styles.chatEmptyStateSubtitle}>{ui?.chat_description}TestingTxt123</div>
+</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px" }} role="log">
